@@ -18,5 +18,5 @@ Looking at the block digram, the four input switches are used to control the ent
 <br><br>
 Next, we have the memory game module, which is where the state machine operates. This module also has two submodules: Count_And_Toggle and LFSR. Linear Feedback Shift Registers (LFSRs) create a pseudorandom pattern so that module will be used to create a random pattern for the user to emulate. The Count_And_Toggle module is used to add a delay between the PATTERN_OFF and PATTERN_SHOW states. As previously mentioned, it is important to create a delay between each LED blink to avoid confusion and ambiguity for the user
 <br><br>
-Finally, the output from the memory game module is an input to the Binary_To_7Segment module, which represents the player's score as an 'A' or 'F' on the seven segment display
+Finally, the output from the memory game module is an input to the Binary_To_7Segment module, which represents the player's score as an 'A' or 'F' on the seven segment display.
  
